@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<title>客户端B</title>
+	<style>
+		.btn{background: blue;color: #fff;border-radius: 5px;width: 200px;height: 40px;line-height: 40px;text-align: center;cursor: pointer}
+		.btn:hover{background: red}
+	</style>
+	<!--<script src="http://realtime.plhwin.com:3000/socket.io/socket.io.js"></script>-->
+	<script src="./socket.io.js"></script>
+</head>
+<body>
+	<h1>客户端B</h1>
+	<div class="btn">点我将数据传送到客户端A</div>
+	<script src="./clientB.js"></script>
+</body>
+</html>
